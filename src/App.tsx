@@ -21,7 +21,7 @@ const navigate = useNavigate()
       <h2>goicoecheadillon@gmail.com, goicoechead@spu.edu</h2>
       <h2>Feel free to email me anytime!</h2>
       <a href="https://www.linkedin.com/in/dillon-goicoechea/">Linkedin </a>
-      <a href="Dillon-Goicoechea.github.io\src\assets\Dillon Goicoechea Resume.pdf" download> Resume</a>
+      <a href="\src\assets\Dillon Goicoechea Resume.pdf" download> Resume</a>
       <a href="https://github.com/Dillon-Goicoechea">  Github </a>
       </div> 
     </>
