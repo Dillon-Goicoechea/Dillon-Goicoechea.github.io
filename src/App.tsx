@@ -9,9 +9,8 @@ const navigate = useNavigate()
     <>
       <h1>Dillon Goicoechea Portfolio</h1>
       <ButtonGroup>
-        <Button onClick={()=>navigate("/code")}></Button>
-        <Button onClick={()=>navigate("/experience")}></Button>
-        <Button></Button>
+        <Button onClick={()=>navigate("/code")}>Code Snippets</Button>
+        <Button onClick={()=>navigate("/experience")}>Work Experience</Button>
       </ButtonGroup>
       <div>
         <Outlet/>
@@ -23,6 +22,7 @@ const navigate = useNavigate()
       <h2>Feel free to email me anytime!</h2>
       <a href="https://www.linkedin.com/in/dillon-goicoechea/">Linkedin </a>
       <a href="src\assets\Dillon Goicoechea Resume.pdf" download> Resume</a>
+      <a href="https://github.com/Dillon-Goicoechea">  Github </a>
       </div> 
     </>
   )
