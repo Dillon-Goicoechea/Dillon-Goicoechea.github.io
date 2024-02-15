@@ -1,9 +1,9 @@
-
+import pdf from './assets/DillonGoicoecheaResume.pdf'
 
 function ProfWork(){
     return(
         <>
-        <div>In Progress</div>
+        <iframe src={pdf} height="500px" width="100%"/>
         </>
     )
 }

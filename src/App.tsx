@@ -22,7 +22,7 @@ const navigate = useNavigate()
       <h2>goicoecheadillon@gmail.com, goicoechead@spu.edu</h2>
       <h2>Feel free to email me anytime!</h2>
       <a href="https://www.linkedin.com/in/dillon-goicoechea/">Linkedin </a>
-      <Link to="route" onClick={(event) => { event.preventDefault(); window.open("dillon-goicoechea.github.io/src/assets/DillonGoicoecheaResume.pdf"); }}>Resume</Link>
+      <Link to="route" onClick={(event) => { event.preventDefault(); window.open(pdf); }}>Resume</Link>
       <a href="https://github.com/Dillon-Goicoechea">  Github </a>
       </div> 
     </>

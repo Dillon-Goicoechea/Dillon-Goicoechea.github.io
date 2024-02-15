@@ -24,7 +24,7 @@ const router = createHashRouter([
       path: "experience",
       element:<ProfWork/>,
       errorElement: <ErrorPage />
-    }
+    },
   ]
   },
 ]);
