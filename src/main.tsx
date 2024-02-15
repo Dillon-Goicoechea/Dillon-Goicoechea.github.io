@@ -29,7 +29,9 @@ const router = createHashRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+const portal = document.getElementById("root")!
+
+ReactDOM.createRoot(portal).render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>
