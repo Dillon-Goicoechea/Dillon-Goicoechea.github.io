@@ -5,12 +5,12 @@ import ErrorPage from './error-page';
 import ProfWork from './professional.tsx';
 import CodeExamples from './code-examples.tsx';
 import {
-  createBrowserRouter,
   RouterProvider,
+  createHashRouter
 } from "react-router-dom";
 import './index.css'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App/>,
