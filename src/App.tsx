@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router-dom'
+import { Link, Outlet, useHref } from 'react-router-dom'
 import { Button, ButtonGroup } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
 import pdf from './assets/DillonGoicoecheaResume.pdf'

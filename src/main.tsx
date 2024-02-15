@@ -6,11 +6,11 @@ import ProfWork from './professional.tsx';
 import CodeExamples from './code-examples.tsx';
 import {
   RouterProvider,
-  createBrowserRouter
+  createHashRouter
 } from "react-router-dom";
 import './index.css'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App/>,
