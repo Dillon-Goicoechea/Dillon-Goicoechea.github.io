@@ -22,7 +22,7 @@ const navigate = useNavigate()
       <h2>goicoecheadillon@gmail.com, goicoechead@spu.edu</h2>
       <h2>Feel free to email me anytime!</h2>
       <a href="https://www.linkedin.com/in/dillon-goicoechea/">Linkedin </a>
-      <a href={pdf} download> Resume</a>
+      <a href="dillon-goicoechea.github.io/src/assets/DillonGoicoecheaResume.pdf" download target="_blank"> Resume</a>
       <a href="https://github.com/Dillon-Goicoechea">  Github </a>
       </div> 
     </>
