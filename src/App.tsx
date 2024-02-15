@@ -1,4 +1,4 @@
-import { Link, Outlet, useHref } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import { Button, ButtonGroup } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
 import pdf from './assets/DillonGoicoecheaResume.pdf'
@@ -22,7 +22,7 @@ const navigate = useNavigate()
       <h2>goicoecheadillon@gmail.com, goicoechead@spu.edu</h2>
       <h2>Feel free to email me anytime!</h2>
       <a href="https://www.linkedin.com/in/dillon-goicoechea/">Linkedin </a>
-      <a href="dillon-goicoechea.github.io/src/assets/DillonGoicoecheaResume.pdf" download target="_blank"> Resume</a>
+      <Link to="route" onClick={(event) => { event.preventDefault(); window.open(pdf); }}>Resume</Link>
       <a href="https://github.com/Dillon-Goicoechea">  Github </a>
       </div> 
     </>
