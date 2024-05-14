@@ -1,14 +1,17 @@
 import { Link, Outlet } from 'react-router-dom'
-import { Button, ButtonGroup } from 'react-bootstrap'
+import { Button, ButtonGroup, Image } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
-import pdf from './assets/DillonGoicoecheaResume.pdf'
+import pdf from './assets/Dillon_Resume.pdf'
 import './App.css'
-
+// add image with bootstrap
 function App() {
 const navigate = useNavigate()
   return (
     <>
+    <div style={{display: "flex"}}>
+      <Image src="dist\headshot.jpg" rounded width="128" height="128"/>
       <h1>Dillon Goicoechea Portfolio</h1>
+    </div>
       <ButtonGroup>
         <Button onClick={()=>navigate("/code")}>Code Snippets</Button>
         <Button onClick={()=>navigate("/experience")}>Work Experience</Button>

@@ -1,0 +1,81 @@
+ <>
+        <body><h1>Dillon Goicoechea</h1>
+        <p ><a href="mailto:goicoecheadillon@gmail.com">goicoecheadillon@gmail.com</a></p>
+        <p ><a href="http://www.linkedin.com/in/dillon-goicoechea" target="_blank">https://dillon-goicoechea.github.io | www.linkedin.com/in/</a>
+        <a href="http://www.linkedin.com/in/dillon-goicoechea" target="_blank">dillon-goicoechea</a></p>
+        <p><br/></p>
+        <h2>Profile</h2>
+        <ul id="l1">
+            <li data-list-text="●">
+                <p>Develop Scalable, Reliable, and Readable programs</p>
+            </li>
+            <li data-list-text="●">
+                <p>4th-year student of BS in Computer Science</p>
+            </li>
+            <li data-list-text="●">
+                <p>Full Stack engineer</p>
+            </li>
+            <li data-list-text="●">
+                <p>Organized, Well-written, Strong communication, Creative, Detail-Oriented</p>
+            </li>
+            <li data-list-text="●">
+                <p>Team player, problem solver, and intense student</p>
+                <h2>Skills</h2>
+                <h4>Languages: 
+                    <span>C, C++, Java, Python, SQL, JavaScript, TypeScript, C#, Node.js, CSS, HTML, Vue, React, .NET</span>
+                </h4>
+                <h4>Tools: 
+                    <span>GitHub, Git, Remote development, MongoDB, Microsoft Word, Microsoft Excel, Microsoft Outlook, Microsoft PowerPoint, MySQL, SQL, NoSQL, Ubuntu, Linux, WSL, MariaDB, Docker, OAuth</span>
+                </h4>
+                <h4>Workplace Skills: 
+                    <span>Strong communication, strategic planning, creative problem solving, data analysis and application, hard-working researcher, ambitious project management, passionate learner</span>
+                </h4>
+                <h4>Computer Science Foundations: 
+                    <span>Data Structures 1, Data Structures 2, Algorithms Design and Analysis, Cybersecurity Fundamentals, Application Development, Programming and Problem Solving, Computer Organization and Assembly Language, Net-centric computing, Concepts in Programming Languages, Systems Design, Principles of Professional Practice</span>
+                </h4>
+                <h2>Work Experience</h2>
+                <p>Edo Energy       
+                    <span>Software Engineer Intern           06/23-09/23</span>
+                </p>
+                </li>
+                <li data-list-text="●">
+                    <p>Developed internal use utility bill quality analysis tool which increased Edo Operations team efficiency</p>
+                </li>
+                <li data-list-text="●">
+                    <p>Implemented API improvements to Node.js microservice to support utility bill quality analysis tool using Node.js, MariaDB, and SQL</p>
+                </li>
+                <li data-list-text="●">
+                    <p>Created React.js front end using Vite to implement UI of utility bill quality analysis tool using JavaScript</p>
+                </li>
+                <li data-list-text="●">
+                    <p>Implemented unit and integration testing for API improvements</p>
+                </li>
+                <li data-list-text="●">
+                    <p>Bug fixes in C# .NET API, React.js UI, and Node.js APIs</p>
+                </li>
+                <li data-list-text="●">
+                    <p>Added additional date options for data range selections for React.js UI</p>
+                    <p><br/></p>
+                    <p>Aeronautical Axolotls   
+                        <span>Software Engineer/Scrum Master       09/23-Present</span>
+                    </p>
+                </li>
+                <li data-list-text="●">
+                    <p>Manage team meeting schedule and documentation</p>
+                </li>
+                <li data-list-text="●">
+                    <p>Lead daily stand-up meetings</p>
+                </li>
+                <li data-list-text="●">
+                    <p>Cultivate sprint goals</p>
+                </li>
+                <li data-list-text="●">
+                    <p>Manage scheduling and documentation required for the board of advisors meetings</p>
+                </li>
+                <li data-list-text="●">
+                    <p>Implement UI in Rust for 2D Grid Based Fluid Simulation <i>JuiceBox</i></p>
+                </li>
+        </ul>
+        <h2>Education</h2>
+        <h3>Seattle Pacific University   BS Computer Science        2024</h3>
+        </body>
