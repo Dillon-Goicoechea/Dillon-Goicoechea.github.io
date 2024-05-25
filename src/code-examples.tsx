@@ -1,4 +1,4 @@
-import { CodeBlock } from "react-code-blocks"
+import { CodeBlock, dracula } from "react-code-blocks"
 
 function CodeExamples(){
     const snippet1:any=`fn lexical_analysis(file_name: String) -> Vec<Tokens>{ //Lexer
@@ -250,10 +250,10 @@ function CodeExamples(){
           boxShadow: '1px 2px 3px rgba(0,0,0,0.35)',
           fontSize: '0.75rem',
           
-        }} showLineNumbers language="rust" />
+        }} showLineNumbers wrapLongLines theme={dracula} language="rust" />
         </div>
         <div style={{fontFamily: "consolas"}}>
-            <h2>Gale Shapley Algorithm</h2>
+            <h2> Java Gale Shapley Algorithm</h2>
             <CodeBlock text={snippet2} customStyle={{
           height: '250px',
           overflowY: 'scroll',
@@ -261,10 +261,10 @@ function CodeExamples(){
           borderRadius: '5px',
           boxShadow: '1px 2px 3px rgba(0,0,0,0.35)',
           fontSize: '0.75rem',
-        }} showLineNumbers language="java"/>
+        }} showLineNumbers wrapLongLines theme={dracula} language="java"/>
         </div>
         <div style={{fontFamily: "consolas"}}>
-            <h2>Iterative vs. Recursive runtimes research code</h2>
+            <h2> Java Iterative vs. Recursive runtimes research code</h2>
             <CodeBlock text={snippet3}customStyle={{
           height: '250px',
           overflowY: 'scroll',
@@ -272,10 +272,10 @@ function CodeExamples(){
           borderRadius: '5px',
           boxShadow: '1px 2px 3px rgba(0,0,0,0.35)',
           fontSize: '0.75rem',
-        }} showLineNumbers language="java"/>
+        }} showLineNumbers wrapLongLines theme={dracula} language="java"/>
         </div>
         <div style={{fontFamily: "consolas"}}>
-            <h2>Course Schedule Creator</h2>
+            <h2>Python Course Schedule Creator</h2>
             <CodeBlock text={snippet4} customStyle={{
           height: '250px',
           overflowY: 'scroll',
@@ -283,7 +283,7 @@ function CodeExamples(){
           borderRadius: '5px',
           boxShadow: '1px 2px 3px rgba(0,0,0,0.35)',
           fontSize: '0.75rem',
-        }} showLineNumbers language="python"/>
+        }} showLineNumbers wrapLongLines theme={dracula} language="python"/>
         </div>
        </> 
     )
